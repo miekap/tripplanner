@@ -63,10 +63,4 @@ Hotel.belongsTo(Place)
 Activity.belongsTo(Place)
 Restaurant.belongsTo(Place)
 
-module.exports = {
-  db: db,
-  Hotel: Hotel,
-  Activity: Activity,
-  Restaurant: Restaurant,
-  Place: Place
-}
+module.exports = db
