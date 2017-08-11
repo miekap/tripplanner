@@ -2,4 +2,23 @@
 
 {% block content %}
 <h1>Welcome to tripplanner!</h1>
+
+{%for hotel in hotels%}
+    <ul>
+        <li>{{hotels}}</li>
+    </ul>
+{% endfor %}
+
+{%for act in activities%}
+    <ul>
+        <li>{{activities}}</li>
+    </ul>
+{% endfor %}
+
+{%for restaurant in restaurants%}
+    <ul>
+        <li>{{restaurants}}</li>
+    </ul>
+{% endfor %}
+
 {% endblock %}
