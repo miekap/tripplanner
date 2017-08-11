@@ -7,10 +7,7 @@ const Activity = db.define('activity', {
     allowNull: false
   },
   age_range: {
-    type: Sequelize.ENUM(
-      'All',
-      '21+'
-    )
+    type: Sequelize.STRING
   }
 })
 
