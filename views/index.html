@@ -3,13 +3,13 @@
 {% block content %}
 <h1>Welcome to tripplanner!</h1>
 
-{%for hotel in hotels%}
+{% for hotel in hotels %}
     <ul>
-        <li>{{hotels}}</li>
+        <li>{{hotel.name}}</li>
     </ul>
 {% endfor %}
 
-{%for act in activities%}
+<!-- {%for act in activities%}
     <ul>
         <li>{{activities}}</li>
     </ul>
@@ -19,6 +19,6 @@
     <ul>
         <li>{{restaurants}}</li>
     </ul>
-{% endfor %}
+{% endfor %} -->
 
 {% endblock %}
